@@ -1,11 +1,11 @@
-import tkinter
 from tkinter import *
-import pygame
+from pygame import mixer
 
 if __name__ == "__main__":
 
     # BASIC TKINTER CODE
     m1 = PanedWindow()
+    mixer.init()
     m1.pack(fill = BOTH, expand = 1)
     left = Entry(m1, bd=5)
     m1.add(left)
