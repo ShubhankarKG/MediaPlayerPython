@@ -22,7 +22,8 @@ if __name__ == "__main__":
 
     def pause_music():
         global isPaused
-        isPaused = True
+        if isPaused is False:
+            isPaused = True
         mixer.music.pause()
 
     def vol_control(vol):
@@ -32,14 +33,21 @@ if __name__ == "__main__":
     def search_file():
         global file_name
         file_name = tkinter.filedialog.askopenfilename()
+        song_name['text'] = file_name
+        if mixer.music.get_busy():
+            mixer.music.stop()
 
 
     # BASIC TKINTER CODE
     m1 = PanedWindow()
     mixer.init()
     m1.pack(fill=BOTH, expand=1)
-    left = Entry(m1, bd=5)
-    m1.add(left)
+    frame = LabelFrame(m1, bd=5)
+    m1.add(frame)
+    song_name = Message(frame, width=300)
+    song_name.grid(row=0)
+    time = Label(frame, width=40)
+    time.grid(row=1)
     m2 = PanedWindow(m1, orient=VERTICAL)
     m1.add(m2)
     top = Scale(m2, orient=HORIZONTAL, command=vol_control)
