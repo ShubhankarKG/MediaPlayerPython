@@ -14,6 +14,7 @@ if __name__ == "__main__":
             mixer.music.unpause()
         else:
             if file_name == "":
+                song_name["text"] = "test.mp3"
                 mixer.music.load("test.mp3")
                 mixer.music.play()
             else:
@@ -33,7 +34,7 @@ if __name__ == "__main__":
     def search_file():
         global file_name
         file_name = tkinter.filedialog.askopenfilename()
-        song_name['text'] = file_name
+        song_name['text'] = file_name.split('/')[-1] #Works for linux, but not for Windows
         if mixer.music.get_busy():
             mixer.music.stop()
 
