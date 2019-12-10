@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b63f74b-bd09-4c90-89cf-d7759e398566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Files/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/pause.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/play.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/search.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/stop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/musicplayer.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/musicplayer.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +40,7 @@
   </component>
   <component name="ProjectId" id="1UWY1VNnzhMaiYF2PD8SMV9hbGL" />
   <component name="PropertiesComponent">
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -52,6 +49,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -190,9 +188,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.New Text Document" />
       </list>
     </recent_temporary>
@@ -213,7 +211,8 @@
       <workItem from="1575714259052" duration="3537000" />
       <workItem from="1575720951938" duration="3411000" />
       <workItem from="1575731260867" duration="7899000" />
-      <workItem from="1575809341926" duration="6671000" />
+      <workItem from="1575809341926" duration="7115000" />
+      <workItem from="1575945566157" duration="7879000" />
     </task>
     <task id="LOCAL-00001" summary="Basic TKinter code added.&#10;&#10;-SKG">
       <created>1575474785366</created>
@@ -256,8 +255,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MediaPlayerPython$New_Text_Document.coverage" NAME="New Text Document Coverage Results" MODIFIED="1575516803514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/MediaPlayerPython$main.coverage" NAME="main Coverage Results" MODIFIED="1575738152318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MediaPlayerPython$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1575819517987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MediaPlayerPython$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1575954277022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MediaPlayerPython$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1575738522584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Files" />
-    <SUITE FILE_PATH="coverage/MediaPlayerPython$test.coverage" NAME="test Coverage Results" MODIFIED="1575719292408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MediaPlayerPython$test.coverage" NAME="test Coverage Results" MODIFIED="1575949014739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
